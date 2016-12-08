@@ -1,0 +1,13 @@
+<template name="memberPage">
+<div class="memberPage page">
+  <ul class="member">
+    {{#each members}}
+    <li>{{>memberList}}</li>
+    {{/each}}
+  </ul>
+</div>
+</template>
+
+<template name="memberList">
+    <h4>{{userName}}</h4><p>{{userID}}</p>
+</template>

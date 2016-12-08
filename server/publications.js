@@ -4,3 +4,6 @@ Meteor.publish('posts', function() {
 Meteor.publish('comments', function() {
   return Comments.find();
 });
+Meteor.publish('userList', function (){
+  return Meteor.users.find({});
+});
