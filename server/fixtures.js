@@ -53,6 +53,7 @@
       submitted: new Date(now - 12 * 3600 * 1000)
     });
 
+
   // Posts.insert({
   //   title: 'Introducing Telescope',
   //   url: 'http://sachagreif.com/introducing-telescope/'
